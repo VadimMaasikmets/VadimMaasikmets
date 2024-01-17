@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c927e5ba-e0cf-4868-b766-be28f7c62c38</ProjectGuid>
+    <ProjectGuid>9cb15946-16d6-42b6-9812-4e5aba73b10d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>VadimMaasikmets.py</StartupFile>
+    <StartupFile>indeks.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>VadimMaasikmets</Name>
-    <RootNamespace>VadimMaasikmets</RootNamespace>
+    <Name>indeks</Name>
+    <RootNamespace>indeks</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="VadimMaasikmets.py" />
+    <Compile Include="indeks.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
